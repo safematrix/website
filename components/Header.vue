@@ -18,7 +18,7 @@
           @mouseout="mouseOut('Platform')"
           v-if="PlatformPc"
         >
-          <nuxt-link to="/Customers">
+          <nuxt-link to="/customers">
             <div class="item">Customers</div>
           </nuxt-link>
         </div>
@@ -35,7 +35,7 @@
           @mouseout="mouseOut('Technology')"
           v-if="TechnologyPc"
         >
-          <nuxt-link to="/Overview">
+          <nuxt-link to="/overview">
             <div class="item">Overview</div>
           </nuxt-link>
           <nuxt-link to="/">
@@ -78,7 +78,7 @@
           @mouseout="mouseOut('About')"
           v-if="AboutPc"
         >
-          <nuxt-link to="/Company">
+          <nuxt-link to="/company">
             <div class="item">Company</div>
           </nuxt-link>
         </div>
@@ -86,7 +86,7 @@
           class="signUp"
           @click="jump('https://dashboard.safematrix.io/account/register')"
         >
-          sign up
+          Launch App
         </div>
       </div>
       <svg
@@ -535,7 +535,6 @@ export default {
             text-align: center;
             height: 28px;
             font-size: 14px;
-            font-family: SFProDisplay-Medium, SFProDisplay;
             font-weight: 550;
             color: #000000;
             line-height: 28px;
@@ -547,7 +546,7 @@ export default {
           }
         }
         .signUp {
-          width: 100px;
+          width: 140px;
           height: 60px;
           background: #2c6cff;
           border-radius: 4px;

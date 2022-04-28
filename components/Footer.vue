@@ -8,7 +8,7 @@
         <div class="list">
           <div class="title">Platform</div>
           <div class="items">
-            <nuxt-link to="/Customers">
+            <nuxt-link to="/customers">
               <div class="item">Customers</div>
             </nuxt-link>
           </div>
@@ -16,7 +16,7 @@
         <div class="list">
           <div class="title">Technology</div>
           <div class="items">
-            <nuxt-link to="/Overview">
+            <nuxt-link to="/overview">
               <div class="item">Overview</div>
             </nuxt-link>
             <div class="item">Github</div>
@@ -33,8 +33,11 @@
         <div class="list">
           <div class="title">About</div>
           <div class="items">
-            <nuxt-link to="/Company">
+            <nuxt-link to="/company">
               <div class="item">Company</div>
+            </nuxt-link>
+            <nuxt-link to="/privacy">
+              <div class="item">Privacy Policy</div>
             </nuxt-link>
           </div>
         </div>
